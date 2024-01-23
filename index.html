@@ -17,7 +17,7 @@
     </style>
 </head>
 <body class="font-manrope">
-    <header>
+    <header class="container mx-auto">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -52,7 +52,7 @@
     
         </nav>
         <!-- slider -->
-        <div class="carousel w-full h-[550px]">
+        <div class="carousel w-full h-[550px] mt-10">
             <div id="slide1" class="carousel-item relative w-full">
               <img src="Images/1.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -68,15 +68,52 @@
               </div>
           </div>
     </header>
-    <main>
-        <section>
-            <div class="border-dashed">
-                <h3 class="text-4xl font-extrabold text-[#131318] text-center">Professional Hockeys Club</h3>
-                <p class="text-base font-medium text-[#13131899] text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+    <main class="container mx-auto">
+      <!-- hockeys club section -->
+        <section class="mt-20 text-center">
+            <div class="border border-dashed border-[#13131833] border-x-transparent space-y-6 mb-5">
+                <h3 class="text-4xl font-extrabold text-[#131318] pt-5">Professional Hockeys Club</h3>
+                <p class="text-base font-medium text-[#13131899] pb-5 lg:max-w-xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            </div>
+            <!-- professional card container -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-2 ml-20">
+              <!-- first card -->
+              <div class="card max-w-[250px] bg-white shadow-xl">
+                <div class="radial-progress place-items-center" style="--value:87;" role="progressbar">87%</div>
+                <div class="card-body text-center">
+                  <h2 class="text-xl font-semibold text-[#131318]">Prayer Facility</h2>
+                  <p class="text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+              </div>
+              <!-- second card -->
+              <div class="card max-w-[250px] bg-white shadow-xl">
+                <div class="radial-progress justify-center" style="--value:95;" role="progressbar">95%</div>
+                <div class="card-body text-center">
+                  <h2 class="text-xl font-semibold text-[#131318]">Experienced Coach</h2>
+                  <p class="text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+              </div>
+              <!-- third card -->
+              <div class="card max-w-[250px] bg-white shadow-xl">
+                <div class="radial-progress justify-center" style="--value:90;" role="progressbar">90%</div>
+                <div class="card-body text-center">
+                  <h2 class="text-xl font-semibold text-[#131318]">Senior Player</h2>
+                  <p class="text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+              </div>
+              <!-- fourth card -->
+              <div class="card max-w-[250px] bg-white shadow-xl">
+                <div class="radial-progress justify-center" style="--value:80;" role="progressbar">80%</div>
+                <div class="card-body text-center">
+                  <h2 class="text-xl font-semibold text-[#131318]">Training Ground</h2>
+                  <p class="text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+              </div>
+
             </div>
 
         </section>
-
+        
     </main>
     <footer>
 
